@@ -35,8 +35,7 @@ These modules find the shape a cable would make if hung from its ends given hori
 |  required                   | xdist, float:        |desired horizontal distance between the two endpoints of the cable |
 |  required                   | ydist, float:        |desired vertical distance between the two endpoints of the cable |
 |  required                   | length, float:       |desired length of cable |
-|  optional, default=.01      | thresh, float:       |represents the maximum x/y-distance a generated curve's endpoint can be compared to the desired endpoint in order for
-the program to count a curve as successful, lower values take longer/more loops but give generally more accurate results |
+|  optional, default=.01      | thresh, float:       |represents the maximum x/y-distance a generated curve's endpoint can be compared to the desired endpoint in order for the program to count a curve as successful, lower values take longer/more loops but give generally more accurate results |
 |  optional, default=500       | max_attempts, int:   | the maximum number of loops/curves to generate in an attempt to find the desired curve |
 |  optional, default=False    |  debug, boolean:     |  if set to True, prints information about each curve generated while searching for the correct curve |
 
